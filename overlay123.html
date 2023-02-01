@@ -1,0 +1,167 @@
+<html lang="en"><head>
+    <style>
+        .A img
+        {
+            filter: grayscale(200%);
+            border: 10px;
+        }
+        .A img:hover
+        {
+            filter: grayscale(0);
+            filter: gray;
+            transition: .2s;
+            border: 10px;
+        }
+        .B img
+        {
+            transition: .2s;
+        }
+        .B  img:hover
+        {
+            opacity: 0.5;
+            transform: scale();
+        }
+        .C img
+        {
+            transition: .3s;
+        }
+        .C img:hover
+        {
+            transform: scale(2);
+        }
+        .D img
+        {
+            transition: .3s;
+        }
+        .D img:hover
+        {
+            transform: scale(0.8);
+        }
+        .E img
+        {
+            transition: .3s;
+        }
+        .E img:hover
+        {
+            border: 5px solid red;
+            border-radius: 50px;
+            transform: scale(0.8);
+        }
+        .F img
+        {
+            transition: .3s;
+        }
+        .F img:hover
+        {
+           
+            box-shadow: 
+            1px 1px salmon,
+            2px 2px salmon,
+            3px 3px salmon,
+            4px 4px salmon,
+            5px 5px salmon,
+            6px 6px salmon;
+            transition: .5s ease;
+        }
+        .G img
+        {
+            transition: .3s;
+        }
+        .G img:hover
+        {
+            box-shadow: 0 0 0 8px rgb(255, 123, 0);
+        }
+        .H img
+        {
+            background-color: black;
+        }
+        .H img:hover
+        { 
+            -webkit-filter: blur(2px);
+            transition: .3s;
+        }
+        .I img
+        {
+            transition: 3s ease;
+        }
+        .I img:hover
+        {
+            transform: rotate(-360deg);
+            transition: 1s ease;
+        }
+        
+
+    </style>
+ 
+    <title>All Hover in Frame</title>
+</head>
+<body>
+    <hr>
+
+    <tr>
+    <table border="2px">
+        <tbody><tr>
+            <th bgcolor="yellow">
+            <div class="A">
+                <p>Grayscale</p>
+                <img src=https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQOIMobnW6sv4RtAAUg8NsSapIh3JNfLIDuCQ&usqp=CAU" width="300px">
+            </div></th>
+            <th bgcolor="black">
+                <p>Fade Hover</p>
+                <div class="B">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQOIMobnW6sv4RtAAUg8NsSapIh3JNfLIDuCQ&usqp=CAU" width="300px">
+                </div></th>
+                <th bgcolor="yellow">
+                <p>Zoom in</p>
+                <div class="C">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbUFVJYckXEN-I2MLcQFxi8aGP0-OOhN-79w&usqp=CAU" width="300px">
+                </div></th>
+                <th bgcolor="black">
+                    <p>Zoom Out</p>
+                    <div class="D">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVwuah51nyo6gtkZbp6xbgQ73ef5rZvTY4wg&usqp=CAU" width="300px">
+                    </div>
+                </th>
+        </tr>
+        <tr>
+                <th bgcolor="yellow">
+                    <p>Border</p>
+                    <div class="E">5
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDLZLBG9pZc3dRFnxeH9J1CcwgCyrkPI87HQ&usqp=CAU" width="300px">
+                    </div>
+                </th>
+                <th bgcolor="black">
+                    <p>3D Hover</p>
+                    <div class="F">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRH5_eChjIhJIm99M5MDL4rN-XHY1TCBlrhJw&usqp=CAU" width="200px">
+                    </div>
+                </th>
+                <th bgcolor="yellow">
+                    <p> Border in Image</p>
+                    <div class="G">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHk1tJ9QDtxno-dEPZXVOvFjN6YrfR-7embA&usqp=CAU" width="200px">
+                    </div>
+                </th>
+                <th bgcolor="black">
+                    <p>Blur </p>
+                    <div class="H">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTd8NBXZuHVa5u48_pWe_CcHWQqnAwrOljHIg&usqp=CAU" width="200px">
+                    </div>
+                </th></tr>
+                <tr>
+                <th bgcolor="yellow">
+                    <p>Rotote </p>
+                    <div class="I">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpdARqSXgAoh3ScEzdKS-0Qj-Is-jKppjXlw&usqp=CAU" width="200px">
+                    </div>
+                    </th><th bgcolor="black">
+                        <p>Fade in a box </p>
+                        <div class="J">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3C5FUd9dv9Cb9L_LXMrI3KmxpRhf-oiS-OVYNSAb1O9jZ39eHo2O5jLTPxusKbtcGcDI&usqp=CAU" width="200px">
+                        </div>
+        </th></tr>
+
+    
+    </tbody></table>
+
+</body></html>
